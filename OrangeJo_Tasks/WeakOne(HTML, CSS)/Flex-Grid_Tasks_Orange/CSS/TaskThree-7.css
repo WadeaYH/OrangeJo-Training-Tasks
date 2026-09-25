@@ -1,0 +1,7 @@
+.sticky-image{
+    top: 150px;
+    right: 20px;
+    width: 150px;
+    /* z-index: 2; */
+    position: fixed;
+}

@@ -1,0 +1,20 @@
+.First-Page-Header {
+    color: rgb(246, 155, 44);
+    font-family:'arial', sans-serif;
+}
+
+.Second-Page-Header {
+    text-align: right;
+    font-family:'arial', sans-serif;
+}
+
+.First-Paragraph {
+    font-size: 22px;
+    font-family:'arial', sans-serif;
+}
+
+.Second-Paragraph {
+    text-align: right;
+    font-family:'courier new', monospace;
+    font-size: 18px;
+}

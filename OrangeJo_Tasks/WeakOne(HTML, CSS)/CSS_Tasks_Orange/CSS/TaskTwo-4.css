@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(255, 247, 241);
+}
+
+.First-Box{
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.highlight-ipsum{
+    background-color: rgb(252, 203, 153);
+}
+
+.highlight-quis{
+    background-color: rgb(248, 254, 156);
+}
+
+.Second-Box{
+    margin-top: 20px;
+    background-color: white;
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+.Second-Box .First-Paragraph{
+    border: 3px dashed rgb(255, 0, 0);
+}
+
+.Third-Box{
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.Third-Box .First-Paragraph, .Third-Box h2{
+    color: rgb(101, 13, 96);
+}

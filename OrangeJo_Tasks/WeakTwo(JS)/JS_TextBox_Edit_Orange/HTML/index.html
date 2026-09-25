@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Manipulation</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+
+
+  <div id="app">
+    <h1 id="title">** Welcome to my Text Editor **</h1>
+    <p><strong>Choose Text Styling Options: </strong></p>
+
+    <form id="welcomeForm">
+      <div class="optionsDiv">
+        <select name="fontType" id="fontTypeList">
+          <option value="sans">Sans-Serif</option>
+          <option value="timesNewRoman" selected>Times New Roman</option>
+        </select>
+
+        <select name="fontSize" id="fontSizeList">
+          <option value="5px" selected>5px</option>
+          <option value="10px">10px</option>
+          <option value="15px">15px</option>
+          <option value="20px">20px</option>
+          <option value="25px">25px</option>
+          <option value="30px">30px</option>
+          <option value="35px">35px</option>
+          <option value="40px">40px</option>
+          <option value="45px">45px</option>
+          <option value="50px">50px</option>
+        </select>
+
+        <div>
+          <input type="checkbox" id="italicFont" name="ItalicFont">
+          <label for="agree">Italic</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="boldFont" name="BoldFont">
+          <label for="agree">Bold</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="underLined" name="UnderLined">
+          <label for="agree">UnderLined</label>
+        </div>
+
+      </div>
+      <br><br><br>
+  </div>
+
+  <div class="form-group">
+    <label for="message">Your Message</label>
+    <textarea id="messageBox" name="message" placeholder="Type your detailed message here..." class="textarea-input"
+      rows="5"></textarea>
+  </div>
+  </form>
+
+  <!-- <p class="text">Another paragraph</p> -->
+  </div>
+
+  <script src="../JS/script.js"></script>
+</body>
+
+</html>

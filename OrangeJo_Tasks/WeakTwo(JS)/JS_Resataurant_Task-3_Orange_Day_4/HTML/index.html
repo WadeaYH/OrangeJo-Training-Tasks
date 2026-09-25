@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Manipulation</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+
+  <div id="app">
+    <h1 id="title">** Welcome to KFC **</h1>
+    <p><strong>Order Details : </strong></p>
+
+    <form id="welcomeForm">
+        <label for="Fname">UserName</label><br>
+        <input type="text" id="usernamebox" name="fname"><br><br>
+        <label for="Age">Select Your Order</label><br>
+        <select name="food" id="foodList">
+        <option value="shawarma">Shawarma</option>
+        <option value="burger" selected>Burger</option>
+        <option value="zinger">Zinger</option>
+        </select>
+        <br><br>
+        <input id="subbut" type="button" name="submitButton" value="Submit">
+    </form>
+
+    <!-- <p class="text">Another paragraph</p> -->
+  </div>
+
+  <script src="../JS/script.js"></script>
+</body>
+</html>

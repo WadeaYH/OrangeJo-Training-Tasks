@@ -1,0 +1,62 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #dca41d;
+    padding: 10px;
+}
+
+/* .inner-container{
+    display: grid;
+    background-color: white;
+} */
+
+.container div p{
+    font-size: 7rem;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.first-par{
+    background-color: #1abc9c;
+}
+
+.second-par{
+    background-color: #3398da;
+}
+
+.third-par{
+    background-color: #9b5ab6;
+}
+
+.fourth-par{
+    background-color: #33495d;
+}
+
+.fifth-par{
+    background-color: #f1c30f;
+}
+
+.sixth-par{
+    background-color: #e67e22;
+}
+
+.seventh-par{
+    background-color: #e74d3d;
+}
+
+.eigth-par{
+    background-color: #bcc3c7;
+}
+
+.ninth-par{
+    background-color: #2ecd70;
+}
+
+.tenth-par{
+    background-color: #15a085;
+}
+
+.empty-par{
+    background-color: white;
+}

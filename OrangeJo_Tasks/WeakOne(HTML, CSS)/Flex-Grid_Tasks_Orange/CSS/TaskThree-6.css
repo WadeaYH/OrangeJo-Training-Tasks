@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+    background-color: aqua;
+}
+
+.container div p{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.first{
+    background-color: #ffa600;
+    margin: 0;
+}
+
+.second{
+    background-color: #0000ff;
+    margin: 0;
+}
+
+.first, .second{
+    display: grid;
+    place-items: center;
+}

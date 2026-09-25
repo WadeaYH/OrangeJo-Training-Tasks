@@ -1,0 +1,35 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 500px;
+  /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.textarea-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  resize: vertical;
+  min-height: 120px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.textarea-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.15);
+}
+
+.optionsDiv{
+    display: flex;
+    gap: 20px;
+}

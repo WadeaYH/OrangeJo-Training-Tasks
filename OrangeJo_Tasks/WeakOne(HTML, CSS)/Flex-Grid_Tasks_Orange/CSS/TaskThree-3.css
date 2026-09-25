@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    background-color: #daa420;
+    min-height: 400px;
+    padding: 10px;
+}
+
+.number-row{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+
+.inner-container{
+    display: flex;
+    flex: 1;
+    margin-top: 5px;
+
+}
+
+.number-row p{
+    margin: 0;
+}
+
+.p1{
+    background-color: green;
+    min-height: 400px;
+}
+
+.p2{
+    background-color: yellow;
+    min-height: 400px;
+}
+
+.p3{
+    background-color: purple;
+    min-height: 400px;
+}
+
+.p4{
+    background-color: gray;
+    min-height: 400px;
+}
+
+.p5{
+    background-color: blue;
+    min-height: 400px;
+}
+
+.p6{
+    background-color: orange;
+    min-height: 400px;
+}
+
+.p7{
+    background-color: pink;
+    min-height: 400px;
+}
+
+.p8{
+    background-color: red;
+    min-height: 400px;
+}
+
+.p9{
+    background-color: darkred;
+    min-height: 400px;
+}

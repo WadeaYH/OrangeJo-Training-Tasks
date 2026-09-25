@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.middleImg{
+    align-self: center;
+    justify-self: center;
+    margin-top: 50px;
+    margin-left: 33px;
+    height: 50%;
+    width: 50%;
+}
+
+button{
+    margin-left: 28px;
+}

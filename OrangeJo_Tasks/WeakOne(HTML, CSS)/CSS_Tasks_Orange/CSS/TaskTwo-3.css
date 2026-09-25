@@ -1,0 +1,17 @@
+*{
+    font-family:'Arial', sans-serif;
+}
+
+
+.First-Code-Snippet, .Second-Code-Snippet{
+    text-align: left;
+    font-weight: bold;
+}
+
+.First-Code-Snippet .property, .Second-Code-Snippet .property{
+    color: blue;
+}
+
+.First-Code-Snippet .value, .Second-Code-Snippet .value{
+    color: rgb(10, 165, 10);
+}

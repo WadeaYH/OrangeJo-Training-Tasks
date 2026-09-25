@@ -1,0 +1,38 @@
+.Container{
+    display: inline-flex;
+    gap: 5px;
+    border: dotted;
+    background-color: white;
+    position: relative;
+}
+
+.Container .Red-Div{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.Green-Div{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.Green-Div2{
+    background-color: green;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.Green-Div3{
+    background-color: green;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+}
